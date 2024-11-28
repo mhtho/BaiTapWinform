@@ -55,5 +55,26 @@ namespace QuanLyThi
             }
             return numRowSuccessed;
         }
+        /// <summary>
+        /// Thuc hien cac truy van nhu: SUM, MAX, COUNT, ...
+        /// Tra ra gia tri cua hang dau tien, dong dau tien kieu object
+        /// Khi dung thi nho ep kieu ve dung kieu can dung
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public object executeScalar(string query)
+        {
+            object data = 0;
+            using (SqlConnection connection = new SqlConnection(connectionStr))
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand(query, connection);
+                data = command.ExecuteScalar();
+
+                connection.Close();
+            }
+            return data;
+        }
     }
 }
