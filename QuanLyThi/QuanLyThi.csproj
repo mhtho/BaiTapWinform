@@ -47,6 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SqlRunner.cs" />
+    <Compile Include="Student\Question.cs" />
+    <Compile Include="Student\Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\Result.Designer.cs">
+      <DependentUpon>Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Submission.cs" />
     <Compile Include="Teacher\CauHoiTracNghiem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +123,9 @@
     <Compile Include="Teacher\TeacherInfo.Designer.cs">
       <DependentUpon>TeacherInfo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Student\Result.resx">
+      <DependentUpon>Result.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Teacher\CauHoiTracNghiem.resx">
       <DependentUpon>CauHoiTracNghiem.cs</DependentUpon>
     </EmbeddedResource>

@@ -12,11 +12,13 @@ namespace QuanLyThi
 {
     public partial class StudentForm : Form
     {
+        private int studentID = 1; // defaut = 1
         public StudentForm()
         {
             InitializeComponent();
-            showForm(new ListExam());
+            showForm(new ListExam(this, studentID));
         }
+
         private Form curMainForm;
         public void showForm(Form form)
         {
@@ -36,11 +38,13 @@ namespace QuanLyThi
 
         private void clickToListExam(object sender, EventArgs e)
         {
-            showForm(new ListExam());
+            showForm(new ListExam(this, studentID));
         }
 
         private void clickToLogOut(object sender, EventArgs e)
         {
+            DialogResult res = MessageBox.Show("Bạn có muốn đăng xuất không ?", "Notice", MessageBoxButtons.YesNo);
+            if (res == DialogResult.No) return;
             this.Close();
         }
     }
