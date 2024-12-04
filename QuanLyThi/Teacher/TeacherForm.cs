@@ -12,10 +12,17 @@ namespace QuanLyThi
 {
     public partial class TeacherForm : Form
     {
-       
+       private int teacherID = 1; // default = 1
         public TeacherForm()
         {
             InitializeComponent();
+            showForm(new TeacherExamManage());
+        }
+
+        public TeacherForm(int teacherID)
+        {
+            InitializeComponent();
+            this.teacherID = teacherID;
             showForm(new TeacherExamManage());
         }
 

@@ -19,6 +19,13 @@ namespace QuanLyThi
             showForm(new ListExam(this, studentID));
         }
 
+        public StudentForm(int studentID)
+        {
+            InitializeComponent();
+            this.studentID = studentID;
+            showForm(new ListExam(this, studentID));
+        }
+
         private Form curMainForm;
         public void showForm(Form form)
         {
