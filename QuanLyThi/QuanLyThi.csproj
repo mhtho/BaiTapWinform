@@ -105,6 +105,12 @@
     <Compile Include="Student\TakingExam.Designer.cs">
       <DependentUpon>TakingExam.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teacher\QuanLyCauHoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\QuanLyCauHoi.Designer.cs">
+      <DependentUpon>QuanLyCauHoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Teacher\TeacherExamManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Student\TakingExam.resx">
       <DependentUpon>TakingExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\QuanLyCauHoi.resx">
+      <DependentUpon>QuanLyCauHoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teacher\TeacherExamManage.resx">
       <DependentUpon>TeacherExamManage.cs</DependentUpon>
