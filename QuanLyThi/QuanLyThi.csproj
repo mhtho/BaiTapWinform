@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SqlRunner.cs" />
+    <Compile Include="Student\History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student\Question.cs" />
     <Compile Include="Student\Result.cs">
       <SubType>Form</SubType>
@@ -129,6 +135,15 @@
     <Compile Include="Teacher\TeacherInfo.Designer.cs">
       <DependentUpon>TeacherInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teacher\ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\ThongKe.Designer.cs">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Student\History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Student\Result.resx">
       <DependentUpon>Result.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Teacher\TeacherInfo.resx">
       <DependentUpon>TeacherInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\ThongKe.resx">
+      <DependentUpon>ThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThi.Teacher;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -51,6 +52,11 @@ namespace QuanLyThi
         private void clickToLogOut(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ClickToThongKe(object sender, EventArgs e)
+        {
+            showForm(new ThongKe());
         }
     }
 }

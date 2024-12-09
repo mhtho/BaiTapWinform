@@ -69,6 +69,7 @@
             this.ToolStripMenuItemThongKe.Name = "ToolStripMenuItemThongKe";
             this.ToolStripMenuItemThongKe.Size = new System.Drawing.Size(68, 20);
             this.ToolStripMenuItemThongKe.Text = "Thống kê";
+            this.ToolStripMenuItemThongKe.Click += new System.EventHandler(this.ClickToThongKe);
             // 
             // ToolStripMenuItemDangXuat
             // 
