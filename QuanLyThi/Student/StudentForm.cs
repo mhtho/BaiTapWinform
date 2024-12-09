@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThi.Student;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -53,6 +54,11 @@ namespace QuanLyThi
             DialogResult res = MessageBox.Show("Bạn có muốn đăng xuất không ?", "Notice", MessageBoxButtons.YesNo);
             if (res == DialogResult.No) return;
             this.Close();
+        }
+
+        private void ClickToHistory(object sender, EventArgs e)
+        {
+            showForm(new History(studentID));
         }
     }
 }
