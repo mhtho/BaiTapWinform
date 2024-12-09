@@ -47,8 +47,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -74,6 +76,7 @@
             // 
             this.textBoxEmail.Location = new System.Drawing.Point(134, 166);
             this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.ReadOnly = true;
             this.textBoxEmail.Size = new System.Drawing.Size(228, 20);
             this.textBoxEmail.TabIndex = 1;
             // 
@@ -81,6 +84,7 @@
             // 
             this.textBoxPhone.Location = new System.Drawing.Point(134, 131);
             this.textBoxPhone.Name = "textBoxPhone";
+            this.textBoxPhone.ReadOnly = true;
             this.textBoxPhone.Size = new System.Drawing.Size(228, 20);
             this.textBoxPhone.TabIndex = 1;
             // 
@@ -88,6 +92,7 @@
             // 
             this.textBoxID.Location = new System.Drawing.Point(134, 102);
             this.textBoxID.Name = "textBoxID";
+            this.textBoxID.ReadOnly = true;
             this.textBoxID.Size = new System.Drawing.Size(228, 20);
             this.textBoxID.TabIndex = 1;
             // 
@@ -104,6 +109,7 @@
             // 
             this.textBoxLoginName.Location = new System.Drawing.Point(134, 46);
             this.textBoxLoginName.Name = "textBoxLoginName";
+            this.textBoxLoginName.ReadOnly = true;
             this.textBoxLoginName.Size = new System.Drawing.Size(228, 20);
             this.textBoxLoginName.TabIndex = 1;
             // 
@@ -111,6 +117,7 @@
             // 
             this.textBoxName.Location = new System.Drawing.Point(134, 74);
             this.textBoxName.Name = "textBoxName";
+            this.textBoxName.ReadOnly = true;
             this.textBoxName.Size = new System.Drawing.Size(228, 20);
             this.textBoxName.TabIndex = 1;
             // 
@@ -180,6 +187,7 @@
             // 
             this.textBoxReNewPassWord.Location = new System.Drawing.Point(185, 139);
             this.textBoxReNewPassWord.Name = "textBoxReNewPassWord";
+            this.textBoxReNewPassWord.PasswordChar = '●';
             this.textBoxReNewPassWord.Size = new System.Drawing.Size(254, 20);
             this.textBoxReNewPassWord.TabIndex = 1;
             // 
@@ -187,6 +195,7 @@
             // 
             this.textBoxNewPassWord.Location = new System.Drawing.Point(185, 92);
             this.textBoxNewPassWord.Name = "textBoxNewPassWord";
+            this.textBoxNewPassWord.PasswordChar = '●';
             this.textBoxNewPassWord.Size = new System.Drawing.Size(254, 20);
             this.textBoxNewPassWord.TabIndex = 1;
             // 
@@ -194,6 +203,7 @@
             // 
             this.textBoxCurPassWord.Location = new System.Drawing.Point(185, 55);
             this.textBoxCurPassWord.Name = "textBoxCurPassWord";
+            this.textBoxCurPassWord.PasswordChar = '●';
             this.textBoxCurPassWord.Size = new System.Drawing.Size(254, 20);
             this.textBoxCurPassWord.TabIndex = 1;
             // 
@@ -224,11 +234,21 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Mật khẩu hiện tại:";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(27, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(911, 185);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // TeacherInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 528);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -238,6 +258,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -263,5 +284,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBoxLoginName;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

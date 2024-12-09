@@ -24,7 +24,15 @@ namespace QuanLyThi
         {
             InitializeComponent();
             this.teacherID = teacherID;
+            this.Text += $" ({getNameUser()}) ";
             showForm(new TeacherExamManage());
+        }
+
+        string getNameUser()
+        {
+            SqlRunner sqlRunner = new SqlRunner();
+            DataTable dt = sqlRunner.excuteQuery(string.Format("SELECT * FROM dbo.taikhoan WHERE loaiNguoiDung = 'GiaoVien' AND maNguoiDung = {0}", teacherID));
+            return dt.Rows[0]["tenDangNhap"].ToString();
         }
 
         private Form curMainForm;
@@ -51,6 +59,8 @@ namespace QuanLyThi
 
         private void clickToLogOut(object sender, EventArgs e)
         {
+            DialogResult res = MessageBox.Show("Bạn muốn đăng xuất không?", "Notice", MessageBoxButtons.YesNo);
+            if(res == DialogResult.No) return;
             this.Close();
         }
 

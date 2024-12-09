@@ -31,9 +31,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ToolStripMenuItemPeronalInfor = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItemListExam = new System.Windows.Forms.ToolStripMenuItem();
+            this.lịchSửToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelMainStudent = new System.Windows.Forms.Panel();
-            this.lịchSửToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +64,13 @@
             this.ToolStripMenuItemListExam.Text = "Bài thi";
             this.ToolStripMenuItemListExam.Click += new System.EventHandler(this.clickToListExam);
             // 
+            // lịchSửToolStripMenuItem
+            // 
+            this.lịchSửToolStripMenuItem.Name = "lịchSửToolStripMenuItem";
+            this.lịchSửToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
+            this.lịchSửToolStripMenuItem.Text = "Lịch sử làm bài";
+            this.lịchSửToolStripMenuItem.Click += new System.EventHandler(this.ClickToHistory);
+            // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
@@ -78,13 +85,6 @@
             this.panelMainStudent.Size = new System.Drawing.Size(1063, 538);
             this.panelMainStudent.TabIndex = 1;
             // 
-            // lịchSửToolStripMenuItem
-            // 
-            this.lịchSửToolStripMenuItem.Name = "lịchSửToolStripMenuItem";
-            this.lịchSửToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
-            this.lịchSửToolStripMenuItem.Text = "Lịch sử làm bài";
-            this.lịchSửToolStripMenuItem.Click += new System.EventHandler(this.ClickToHistory);
-            // 
             // StudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -92,6 +92,7 @@
             this.ClientSize = new System.Drawing.Size(1063, 565);
             this.Controls.Add(this.panelMainStudent);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "StudentForm";
             this.Text = "StudentForm";

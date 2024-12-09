@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,13 @@ namespace QuanLyThi
         {
             InitializeComponent();
             loadThongTin();
+            loadPicture();
+        }
+
+        void loadPicture()
+        {
+            string path = Directory.GetParent(Application.ExecutablePath).Parent.Parent.FullName + "\\Image\\background.png";
+            pictureBox1.Image = new Bitmap(path);
         }
 
         void loadThongTin()

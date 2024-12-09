@@ -8,17 +8,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 namespace QuanLyThi
 {
     public partial class Login : Form
     {
         
-        string str = "Data Source=.\\SQLEXPRESS;Initial Catalog=QuanLyPhanMemThi;Integrated Security=True;";
-        
+        string str;
         
         public Login()
         {
             InitializeComponent();
+            init();
+        }
+        public void init()
+        {
+            SqlRunner sqlRunner = new SqlRunner();
+            str = sqlRunner.getConnectionStr();
+            string path = Directory.GetParent(Application.ExecutablePath).Parent.Parent.FullName + "\\Image\\login.png";
+            pictureBox1.Image = new Bitmap(path);
         }
 
         int getID(string user, string pass, string role)

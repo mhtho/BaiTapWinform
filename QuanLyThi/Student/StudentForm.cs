@@ -24,7 +24,15 @@ namespace QuanLyThi
         {
             InitializeComponent();
             this.studentID = studentID;
+            this.Text += $" ({getNameUser()}) ";
             showForm(new ListExam(this, studentID));
+        }
+
+        string getNameUser()
+        {
+            SqlRunner sqlRunner = new SqlRunner();
+            DataTable dt = sqlRunner.excuteQuery(string.Format("SELECT * FROM dbo.taikhoan WHERE loaiNguoiDung = 'HocSinh' AND maNguoiDung = {0}", studentID));
+            return dt.Rows[0]["tenDangNhap"].ToString();
         }
 
         private Form curMainForm;

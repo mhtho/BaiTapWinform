@@ -15,7 +15,7 @@ namespace QuanLyThi
     {
         SqlConnection connection;
         SqlCommand command;
-        String str = "Data Source=.\\Sqlexpress;Initial Catalog=QuanLyPhanMemThi;Integrated Security=True;Encrypt=False";
+        string str;
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable table = new DataTable();
         private int curQuestionId = -1; // default = -1
@@ -31,6 +31,8 @@ namespace QuanLyThi
         public CauHoiTracNghiem()
         {
             InitializeComponent();
+            SqlRunner runner = new SqlRunner();
+            str = runner.getConnectionStr();
         }
 
         private void CauHoiTracNghiem_Load(object sender, EventArgs e)
