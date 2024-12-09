@@ -1,4 +1,6 @@
 # BaiTapWinform
-Chạy file sql để tạo csdl trước
-Nếu Sql dùng bản Express thì không cần đổi connectionStr
-Còn không thì chỉ cần đổi connectionStr bên trong file SqlRunner là được
+Chạy file `sql` để tạo csdl trước <space>  
+<space>
+Nếu Sql dùng bản Express thì không cần đổi `connectionStr` <space>  
+<space>
+Còn không thì chỉ cần đổi `connectionStr` bên trong file `SqlRunner` là được
