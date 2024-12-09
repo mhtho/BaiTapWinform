@@ -22,6 +22,14 @@ namespace QuanLyThi
             loadDataGridView(1);
         }
 
+        public EditExam(int maDeThi)
+        {
+            InitializeComponent();
+            this.maDeThi = maDeThi;
+            loadThongTin();
+            loadDataGridView(1);
+        }
+
         void loadTracNghiem()
         {
             SqlRunner sqlRunner = new SqlRunner();

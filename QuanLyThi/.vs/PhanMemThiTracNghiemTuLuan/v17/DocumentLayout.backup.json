@@ -1,29 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\",
+  "WorkspaceRootPath": "D:\\github\\test4\\BaiTapWinform\\QuanLyThi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test3\\baitapwinform\\quanlythi\\teacher\\editexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:teacher\\editexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test3\\baitapwinform\\quanlythi\\teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test4\\baitapwinform\\quanlythi\\teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test3\\baitapwinform\\quanlythi\\teacher\\editexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:teacher\\editexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test4\\baitapwinform\\quanlythi\\teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test3\\baitapwinform\\quanlythi\\student\\listexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:student\\listexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test3\\baitapwinform\\quanlythi\\teacher\\editexam.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:teacher\\editexam.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test3\\baitapwinform\\quanlythi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test4\\baitapwinform\\quanlythi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,15 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Program.cs",
+              "DocumentMoniker": "D:\\github\\test4\\BaiTapWinform\\QuanLyThi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Program.cs",
+              "ToolTip": "D:\\github\\test4\\BaiTapWinform\\QuanLyThi\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,65 +40,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditExam.Designer.cs",
-              "DocumentMoniker": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Teacher\\EditExam.Designer.cs",
-              "RelativeDocumentMoniker": "Teacher\\EditExam.Designer.cs",
-              "ToolTip": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Teacher\\EditExam.Designer.cs",
-              "RelativeToolTip": "Teacher\\EditExam.Designer.cs",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAcwBgBAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TeacherExamManage.cs",
+              "DocumentMoniker": "D:\\github\\test4\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs",
+              "RelativeDocumentMoniker": "Teacher\\TeacherExamManage.cs",
+              "ToolTip": "D:\\github\\test4\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs",
+              "RelativeToolTip": "Teacher\\TeacherExamManage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwEYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:28:56.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListExam.cs",
-              "DocumentMoniker": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Student\\ListExam.cs",
-              "RelativeDocumentMoniker": "Student\\ListExam.cs",
-              "ToolTip": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Student\\ListExam.cs",
-              "RelativeToolTip": "Student\\ListExam.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:35:40.337Z",
+              "WhenOpened": "2024-12-08T08:45:39.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EditExam.cs",
-              "DocumentMoniker": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Teacher\\EditExam.cs",
-              "RelativeDocumentMoniker": "Teacher\\EditExam.cs",
-              "ToolTip": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Teacher\\EditExam.cs*",
-              "RelativeToolTip": "Teacher\\EditExam.cs*",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAwwHoAAAAKAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:21:33.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditExam.cs [Design]",
-              "DocumentMoniker": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Teacher\\EditExam.cs",
-              "RelativeDocumentMoniker": "Teacher\\EditExam.cs",
-              "ToolTip": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Teacher\\EditExam.cs [Design]*",
-              "RelativeToolTip": "Teacher\\EditExam.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:16:50.291Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TeacherExamManage.cs [Design]",
-              "DocumentMoniker": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs",
+              "DocumentMoniker": "D:\\github\\test4\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs",
               "RelativeDocumentMoniker": "Teacher\\TeacherExamManage.cs",
-              "ToolTip": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs [Design]",
+              "ToolTip": "D:\\github\\test4\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs [Design]",
               "RelativeToolTip": "Teacher\\TeacherExamManage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:04:00.59Z",
+              "WhenOpened": "2024-12-08T08:44:27.558Z",
               "EditorCaption": " [Design]"
             }
           ]

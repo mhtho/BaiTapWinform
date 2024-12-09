@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\",
+  "WorkspaceRootPath": "D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\test3\\baitapwinform\\quanlythi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\editexam\\baitapwinform\\quanlythi\\teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:teacher\\teacherexammanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Program.cs",
+              "DocumentMoniker": "D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\github\\test3\\BaiTapWinform\\QuanLyThi\\Program.cs",
+              "ToolTip": "D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T09:22:23.36Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherExamManage.cs",
+              "DocumentMoniker": "D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs",
+              "RelativeDocumentMoniker": "Teacher\\TeacherExamManage.cs",
+              "ToolTip": "D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs",
+              "RelativeToolTip": "Teacher\\TeacherExamManage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:45:39.024Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeacherExamManage.cs [Design]",
+              "DocumentMoniker": "D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs",
+              "RelativeDocumentMoniker": "Teacher\\TeacherExamManage.cs",
+              "ToolTip": "D:\\github\\editExam\\BaiTapWinform\\QuanLyThi\\Teacher\\TeacherExamManage.cs [Design]",
+              "RelativeToolTip": "Teacher\\TeacherExamManage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:44:27.558Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
