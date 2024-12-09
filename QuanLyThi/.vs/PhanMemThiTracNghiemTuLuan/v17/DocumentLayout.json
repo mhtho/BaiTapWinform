@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\github\\lan cuoi\\BaiTapWinform\\QuanLyThi\\",
+  "WorkspaceRootPath": "D:\\github\\review\\BaiTapWinform\\QuanLyThi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\lan cuoi\\baitapwinform\\quanlythi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|d:\\github\\review\\baitapwinform\\quanlythi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6D93417-61BE-4B3F-A11E-188FA87C3162}|QuanLyThi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\lan cuoi\\BaiTapWinform\\QuanLyThi\\Program.cs",
+              "DocumentMoniker": "D:\\github\\review\\BaiTapWinform\\QuanLyThi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\github\\lan cuoi\\BaiTapWinform\\QuanLyThi\\Program.cs",
+              "ToolTip": "D:\\github\\review\\BaiTapWinform\\QuanLyThi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T09:22:23.36Z",
               "IsPinned": true,

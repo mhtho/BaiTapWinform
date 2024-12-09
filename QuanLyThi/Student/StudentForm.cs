@@ -49,7 +49,7 @@ namespace QuanLyThi
         }
         private void clickToStudentInfo(object sender, EventArgs e)
         {
-            showForm(new StudentInfo());
+            showForm(new StudentInfo(studentID));
         }
 
         private void clickToListExam(object sender, EventArgs e)

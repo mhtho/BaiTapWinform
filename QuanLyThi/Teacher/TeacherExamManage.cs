@@ -21,6 +21,13 @@ namespace QuanLyThi
             loadDataGridView();
         }
 
+        public TeacherExamManage(int teacherId)
+        {
+            InitializeComponent();
+            this.teacherId = teacherId;
+            loadDataGridView();
+        }
+
         void loadThongTin()
         {
             if (curExamId == -1) return;
@@ -37,7 +44,7 @@ namespace QuanLyThi
         {
             SqlRunner sqlRunner = new SqlRunner();
             dataGridView1.DataSource = sqlRunner.excuteQuery(string.Format("SELECT maDeThi, tenDeThi FROM dbo.DeThi WHERE maGiaoVien = {0}", teacherId));
-            if(dataGridView1.Rows.Count - 2 > 0)
+            if(dataGridView1.Rows.Count - 1 > 0)
             {
                 curExamId = (int)dataGridView1.Rows[0].Cells["maDeThi"].Value;
                 loadThongTin();
@@ -50,7 +57,7 @@ namespace QuanLyThi
         {
             SqlRunner sqlRunner = new SqlRunner();
             dataGridView1.DataSource = sqlRunner.excuteQuery(query);
-            if (dataGridView1.Rows.Count - 2 > 0)
+            if (dataGridView1.Rows.Count - 1 > 0)
             {
                 curExamId = (int)dataGridView1.Rows[0].Cells["maDeThi"].Value;
                 loadThongTin();

@@ -25,7 +25,7 @@ namespace QuanLyThi
             InitializeComponent();
             this.teacherID = teacherID;
             this.Text += $" ({getNameUser()}) ";
-            showForm(new TeacherExamManage());
+            showForm(new TeacherExamManage(teacherID));
         }
 
         string getNameUser()
@@ -49,12 +49,12 @@ namespace QuanLyThi
         }
         private void clickToTeacherInfo(object sender, EventArgs e)
         {
-            showForm(new TeacherInfo());
+            showForm(new TeacherInfo(teacherID));
         }
 
         private void clickToTeacherExamManage(object sender, EventArgs e)
         {
-            showForm(new TeacherExamManage());
+            showForm(new TeacherExamManage(teacherID));
         }
 
         private void clickToLogOut(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace QuanLyThi
 
         private void ClickToThongKe(object sender, EventArgs e)
         {
-            showForm(new ThongKe());
+            showForm(new ThongKe(teacherID));
         }
     }
 }

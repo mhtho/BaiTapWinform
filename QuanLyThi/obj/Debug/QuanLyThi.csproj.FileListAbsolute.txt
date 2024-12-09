@@ -22,3 +22,27 @@ D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.GenerateRe
 D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.CoreCompileInputs.cache
 D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.exe
 D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.pdb
+D:\github\review\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe.config
+D:\github\review\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe
+D:\github\review\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.pdb
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.AssemblyReference.cache
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Student.History.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Student.Result.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTracNghiem.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTuLuan.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.EditExam.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.ListExam.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Login.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Properties.Resources.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentForm.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentInfo.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TakingExam.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Teacher.QuanLyCauHoi.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherExamManage.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherForm.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherInfo.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Teacher.ThongKe.resources
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.GenerateResource.cache
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.CoreCompileInputs.cache
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.exe
+D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.pdb

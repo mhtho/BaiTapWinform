@@ -20,6 +20,13 @@ namespace QuanLyThi.Teacher
             loadDataGridView();
         }
 
+        public ThongKe(int teacherId)
+        {
+            InitializeComponent();
+            this.teacherId = teacherId;
+            loadDataGridView();
+        }
+
         void loadDataGridView()
         {
             SqlRunner sqlRunner = new SqlRunner();

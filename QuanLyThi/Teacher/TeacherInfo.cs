@@ -22,6 +22,14 @@ namespace QuanLyThi
             loadPicture();
         }
 
+        public TeacherInfo(int teacherId)
+        {
+            InitializeComponent();
+            this.teacherId = teacherId;
+            loadThongTin();
+            loadPicture();
+        }
+
         void loadPicture()
         {
             string path = Directory.GetParent(Application.ExecutablePath).Parent.Parent.FullName + "\\Image\\background.png";
