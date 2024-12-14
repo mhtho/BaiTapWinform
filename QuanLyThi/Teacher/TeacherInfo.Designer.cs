@@ -29,36 +29,38 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.textBoxPhone = new System.Windows.Forms.TextBox();
+            this.textBoxID = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxLoginName = new System.Windows.Forms.TextBox();
+            this.textBoxName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBoxReNewPassWord = new System.Windows.Forms.TextBox();
+            this.textBoxNewPassWord = new System.Windows.Forms.TextBox();
+            this.textBoxCurPassWord = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBoxEmail);
+            this.groupBox1.Controls.Add(this.textBoxPhone);
+            this.groupBox1.Controls.Add(this.textBoxID);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.textBoxLoginName);
+            this.groupBox1.Controls.Add(this.textBoxName);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label2);
@@ -70,26 +72,29 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin";
             // 
-            // textBox4
+            // textBoxEmail
             // 
-            this.textBox4.Location = new System.Drawing.Point(134, 166);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(228, 20);
-            this.textBox4.TabIndex = 1;
+            this.textBoxEmail.Location = new System.Drawing.Point(134, 166);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.ReadOnly = true;
+            this.textBoxEmail.Size = new System.Drawing.Size(228, 20);
+            this.textBoxEmail.TabIndex = 1;
             // 
-            // textBox3
+            // textBoxPhone
             // 
-            this.textBox3.Location = new System.Drawing.Point(134, 131);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(228, 20);
-            this.textBox3.TabIndex = 1;
+            this.textBoxPhone.Location = new System.Drawing.Point(134, 131);
+            this.textBoxPhone.Name = "textBoxPhone";
+            this.textBoxPhone.ReadOnly = true;
+            this.textBoxPhone.Size = new System.Drawing.Size(228, 20);
+            this.textBoxPhone.TabIndex = 1;
             // 
-            // textBox2
+            // textBoxID
             // 
-            this.textBox2.Location = new System.Drawing.Point(134, 102);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(228, 20);
-            this.textBox2.TabIndex = 1;
+            this.textBoxID.Location = new System.Drawing.Point(134, 102);
+            this.textBoxID.Name = "textBoxID";
+            this.textBoxID.ReadOnly = true;
+            this.textBoxID.Size = new System.Drawing.Size(228, 20);
+            this.textBoxID.TabIndex = 1;
             // 
             // label4
             // 
@@ -100,12 +105,21 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Email:";
             // 
-            // textBox1
+            // textBoxLoginName
             // 
-            this.textBox1.Location = new System.Drawing.Point(134, 74);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(228, 20);
-            this.textBox1.TabIndex = 1;
+            this.textBoxLoginName.Location = new System.Drawing.Point(134, 46);
+            this.textBoxLoginName.Name = "textBoxLoginName";
+            this.textBoxLoginName.ReadOnly = true;
+            this.textBoxLoginName.Size = new System.Drawing.Size(228, 20);
+            this.textBoxLoginName.TabIndex = 1;
+            // 
+            // textBoxName
+            // 
+            this.textBoxName.Location = new System.Drawing.Point(134, 74);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.ReadOnly = true;
+            this.textBoxName.Size = new System.Drawing.Size(228, 20);
+            this.textBoxName.TabIndex = 1;
             // 
             // label3
             // 
@@ -115,6 +129,15 @@
             this.label3.Size = new System.Drawing.Size(73, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Số điện thoại:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(41, 53);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(87, 13);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Tên đăng nhập: ";
             // 
             // label2
             // 
@@ -137,9 +160,9 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.textBoxReNewPassWord);
+            this.groupBox2.Controls.Add(this.textBoxNewPassWord);
+            this.groupBox2.Controls.Add(this.textBoxCurPassWord);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
@@ -158,27 +181,31 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Update";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.ClickToUpdate);
             // 
-            // textBox7
+            // textBoxReNewPassWord
             // 
-            this.textBox7.Location = new System.Drawing.Point(185, 139);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(254, 20);
-            this.textBox7.TabIndex = 1;
+            this.textBoxReNewPassWord.Location = new System.Drawing.Point(185, 139);
+            this.textBoxReNewPassWord.Name = "textBoxReNewPassWord";
+            this.textBoxReNewPassWord.PasswordChar = '●';
+            this.textBoxReNewPassWord.Size = new System.Drawing.Size(254, 20);
+            this.textBoxReNewPassWord.TabIndex = 1;
             // 
-            // textBox6
+            // textBoxNewPassWord
             // 
-            this.textBox6.Location = new System.Drawing.Point(185, 92);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(254, 20);
-            this.textBox6.TabIndex = 1;
+            this.textBoxNewPassWord.Location = new System.Drawing.Point(185, 92);
+            this.textBoxNewPassWord.Name = "textBoxNewPassWord";
+            this.textBoxNewPassWord.PasswordChar = '●';
+            this.textBoxNewPassWord.Size = new System.Drawing.Size(254, 20);
+            this.textBoxNewPassWord.TabIndex = 1;
             // 
-            // textBox5
+            // textBoxCurPassWord
             // 
-            this.textBox5.Location = new System.Drawing.Point(185, 55);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(254, 20);
-            this.textBox5.TabIndex = 1;
+            this.textBoxCurPassWord.Location = new System.Drawing.Point(185, 55);
+            this.textBoxCurPassWord.Name = "textBoxCurPassWord";
+            this.textBoxCurPassWord.PasswordChar = '●';
+            this.textBoxCurPassWord.Size = new System.Drawing.Size(254, 20);
+            this.textBoxCurPassWord.TabIndex = 1;
             // 
             // label7
             // 
@@ -207,27 +234,21 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Mật khẩu hiện tại:";
             // 
-            // label8
+            // pictureBox1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(41, 53);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 13);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Tên đăng nhập: ";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(134, 46);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(228, 20);
-            this.textBox8.TabIndex = 1;
+            this.pictureBox1.Location = new System.Drawing.Point(27, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(911, 185);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // TeacherInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 528);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -237,6 +258,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -244,23 +266,24 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxPhone;
+        private System.Windows.Forms.TextBox textBoxID;
+        private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBoxReNewPassWord;
+        private System.Windows.Forms.TextBox textBoxNewPassWord;
+        private System.Windows.Forms.TextBox textBoxCurPassWord;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBoxLoginName;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

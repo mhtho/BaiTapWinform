@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 namespace QuanLyThi
 {
     public partial class Login : Form
@@ -20,34 +21,44 @@ namespace QuanLyThi
         public Login()
         {
             InitializeComponent();
+            init();
+        }
+        public void init()
+        {
+            SqlRunner sqlRunner = new SqlRunner();
+            str = sqlRunner.getConnectionStr();
+            string path = Directory.GetParent(Application.ExecutablePath).Parent.Parent.FullName + "\\Image\\login.png";
+            pictureBox1.Image = new Bitmap(path);
         }
 
-        private void Login_Load(object sender, EventArgs e)
+        int getID(string user, string pass, string role)
         {
-
-           
+            SqlRunner sqlRunner = new SqlRunner();
+            DataTable dt = sqlRunner.excuteQuery(string.Format("SELECT * FROM dbo.taikhoan WHERE tenDangNhap = '{0}' AND matKhau = '{1}' AND loaiNguoiDung = '{2}'", user, pass, role));
+            return int.Parse(dt.Rows[0]["maNguoiDung"].ToString());     
         }
 
-
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        void clearData()
         {
-
+            txtPassword.Text = txtUsername.Text = "";
         }
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        void openStudentForm(int studentID)
         {
-
+            clearData();
+            this.Hide();
+            Form form = new StudentForm(studentID);
+            form.ShowDialog();
+            this.Show();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        void openTeacherForm(int teacherID)
         {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
+            clearData();
+            this.Hide();
+            Form form = new TeacherForm(teacherID);
+            form.ShowDialog();
+            this.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -76,6 +87,15 @@ namespace QuanLyThi
                         if (reader.HasRows)
                         {
                             MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            if(role == "HocSinh")
+                            {
+                                openStudentForm(getID(username, password, role));
+                            }
+                            else if(role == "GiaoVien")
+                            {
+                                openTeacherForm(getID(username, password, role));
+                            }
+                            
                         }
                         else
                         {

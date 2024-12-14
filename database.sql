@@ -168,36 +168,35 @@ GO
 -- Thêm dữ liệu vào bảng CauHoiTuLuan
 INSERT INTO CauHoiTuLuan (noiDung, cauTraLoi)
 VALUES
-
 (N'Phân tích hình tượng người lính Tây Tiến trong bài thơ "Tây Tiến" của Quang Dũng.', 
- N'Hình tượng người lính Tây Tiến hiện lên vừa bi tráng, lãng mạn, vừa mang nét hào hùng, gắn liền với thiên nhiên Tây Bắc.'),
+ N'Bi tráng, lãng mạn.'),
 
 (N'Nêu ý nghĩa của hình tượng "sóng" trong bài thơ "Sóng" của Xuân Quỳnh.', 
- N'Hình tượng "sóng" tượng trưng cho tình yêu mãnh liệt, nỗi nhớ da diết và sự chung thủy của người phụ nữ.'),
+ N'Tình yêu mãnh liệt.'),
 
 (N'Phân tích nhân vật Chí Phèo trong truyện ngắn "Chí Phèo" của Nam Cao.', 
- N'Chí Phèo là hiện thân của người nông dân bị tha hóa cả về nhân cách lẫn hình dạng, đồng thời cũng thể hiện khát vọng được sống lương thiện.'),
+ N'Nông dân tha hóa.'),
 
 (N'Nêu cảm nhận của em về bài thơ "Vội vàng" của Xuân Diệu.', 
- N'Bài thơ thể hiện khát vọng sống mãnh liệt, tình yêu cuộc đời và niềm trân trọng từng khoảnh khắc của Xuân Diệu.'),
+ N'Khát vọng sống.'),
 
 (N'Phân tích vai trò của các câu ca dao trong đoạn trích "Đất Nước" của Nguyễn Khoa Điềm.', 
- N'Các câu ca dao trong đoạn trích giúp khắc họa vẻ đẹp truyền thống văn hóa, phong tục và tâm hồn dân tộc Việt Nam.'),
+ N'Vẻ đẹp văn hóa.'),
 
 (N'Viết đoạn văn trình bày suy nghĩ của em về tư tưởng nhân đạo trong "Truyện Kiều" của Nguyễn Du.', 
- N'Tư tưởng nhân đạo trong "Truyện Kiều" thể hiện qua sự cảm thông sâu sắc với số phận con người, đề cao phẩm chất và tài năng của người phụ nữ.'),
+ N'Đề cao con người.'),
 
 (N'Phân tích ý nghĩa biểu tượng "rừng" trong bài thơ "Nhớ rừng" của Thế Lữ.', 
- N'Hình ảnh "rừng" trong bài thơ là biểu tượng cho hoài niệm về một thời oanh liệt đã qua, đồng thời thể hiện khát vọng tự do của con người.'),
+ N'Khát vọng tự do.'),
 
 (N'Trình bày ý nghĩa của hai câu thơ: "Khi ta lớn lên Đất Nước đã có rồi/ Đất Nước có trong những cái ngày xửa ngày xưa..." của Nguyễn Khoa Điềm.', 
- N'Hai câu thơ nhấn mạnh sự trường tồn của Đất Nước, gắn bó với truyền thống dân gian và đời sống tâm linh của nhân dân.'),
+ N'Đất Nước trường tồn.'),
 
 (N'Phân tích tâm trạng của người mẹ trong bài thơ "Khúc hát ru những em bé lớn trên lưng mẹ" của Nguyễn Khoa Điềm.', 
- N'Tâm trạng của người mẹ trong bài thơ là sự yêu thương con tha thiết, đồng thời thể hiện tình yêu quê hương và lòng quyết tâm chiến đấu.'),
+ N'Yêu con, yêu quê.'),
 
 (N'Nêu cảm nhận của em về vẻ đẹp thiên nhiên Tây Bắc trong bài thơ "Tây Tiến" của Quang Dũng.', 
- N'Thơ Quang Dũng khắc họa thiên nhiên Tây Bắc vừa hùng vĩ, dữ dội, vừa thơ mộng, trữ tình, tạo nên bức tranh tuyệt đẹp của núi rừng Việt Nam.');
+ N'Hùng vĩ, thơ mộng.');
 
 GO
 -- Thêm dữ liệu vào bảng ChiTiet_DeThi

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThi.Student;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,21 @@ namespace QuanLyThi
             showForm(new ListExam(this, studentID));
         }
 
+        public StudentForm(int studentID)
+        {
+            InitializeComponent();
+            this.studentID = studentID;
+            this.Text += $" ({getNameUser()}) ";
+            showForm(new ListExam(this, studentID));
+        }
+
+        string getNameUser()
+        {
+            SqlRunner sqlRunner = new SqlRunner();
+            DataTable dt = sqlRunner.excuteQuery(string.Format("SELECT * FROM dbo.taikhoan WHERE loaiNguoiDung = 'HocSinh' AND maNguoiDung = {0}", studentID));
+            return dt.Rows[0]["tenDangNhap"].ToString();
+        }
+
         private Form curMainForm;
         public void showForm(Form form)
         {
@@ -33,7 +49,7 @@ namespace QuanLyThi
         }
         private void clickToStudentInfo(object sender, EventArgs e)
         {
-            showForm(new StudentInfo());
+            showForm(new StudentInfo(studentID));
         }
 
         private void clickToListExam(object sender, EventArgs e)
@@ -46,6 +62,11 @@ namespace QuanLyThi
             DialogResult res = MessageBox.Show("Bạn có muốn đăng xuất không ?", "Notice", MessageBoxButtons.YesNo);
             if (res == DialogResult.No) return;
             this.Close();
+        }
+
+        private void ClickToHistory(object sender, EventArgs e)
+        {
+            showForm(new History(studentID));
         }
     }
 }

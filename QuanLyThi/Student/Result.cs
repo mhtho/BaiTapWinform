@@ -60,8 +60,8 @@ namespace QuanLyThi.Student
                     {
                         id = ++i,
                         content = contents,
-                        answered = (cauTN.preAnswer == -1) ? "Bạn chưa trả lời" : (Convert.ToChar(cauTN.preAnswer + 'A').ToString() + ". " + cauTN.options[cauTN.preAnswer - 1]),
-                        rightAnswer = Convert.ToChar(cauTN.rightAnswer + 'A').ToString() + ". " + cauTN.options[cauTN.rightAnswer - 1],
+                        answered = (cauTN.preAnswer == -1) ? "Bạn chưa trả lời" : (Convert.ToChar(cauTN.preAnswer - 1 + 'A').ToString() + ". " + cauTN.options[cauTN.preAnswer - 1]),
+                        rightAnswer = Convert.ToChar(cauTN.rightAnswer - 1 + 'A').ToString() + ". " + cauTN.options[cauTN.rightAnswer - 1],
                         status = (cauTN.preAnswer == -1) ? -1 : (cauTN.preAnswer == cauTN.rightAnswer ? 1 : 0)
                     });
                 }

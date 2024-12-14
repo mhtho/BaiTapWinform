@@ -13,6 +13,11 @@ namespace QuanLyThi
 
         private string connectionStr = "Data Source=.\\Sqlexpress;Initial Catalog=QuanLyPhanMemThi;Integrated Security=True;Encrypt=False";
         
+        public string getConnectionStr()
+        {
+            return connectionStr;
+        }
+
         /// <summary>
         /// Thuc hien truy van truyen vao va tra ra DataTable
         /// </summary>
