@@ -14,7 +14,9 @@ namespace QuanLyThi
     public partial class Login : Form
     {
         
-        string str;
+        string str = @"Data Source=KHANHLINH\SQLEXPRESS;Initial Catalog=QuanLyPhanMemThi;Integrated Security=True";
+        
+
         
         public Login()
         {

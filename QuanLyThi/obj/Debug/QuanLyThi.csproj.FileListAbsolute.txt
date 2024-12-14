@@ -1,48 +1,62 @@
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe.config
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.pdb
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.AssemblyReference.cache
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Student.History.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Student.Result.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTracNghiem.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTuLuan.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.EditExam.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.ListExam.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Login.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Properties.Resources.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentForm.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentInfo.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TakingExam.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Teacher.QuanLyCauHoi.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherExamManage.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherForm.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherInfo.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Teacher.ThongKe.resources
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.GenerateResource.cache
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.CoreCompileInputs.cache
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.exe
-D:\github\lan cuoi\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.pdb
-D:\github\review\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe.config
-D:\github\review\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe
-D:\github\review\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.pdb
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.AssemblyReference.cache
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Student.History.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Student.Result.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTracNghiem.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTuLuan.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.EditExam.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.ListExam.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Login.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Properties.Resources.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentForm.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentInfo.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TakingExam.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Teacher.QuanLyCauHoi.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherExamManage.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherForm.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherInfo.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Teacher.ThongKe.resources
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.GenerateResource.cache
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.CoreCompileInputs.cache
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.exe
-D:\github\review\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.pdb
+D:\BaiTapLonWinform\QuanLyThi\bin\Debug\QuanLyThi.exe.config
+D:\BaiTapLonWinform\QuanLyThi\bin\Debug\QuanLyThi.exe
+D:\BaiTapLonWinform\QuanLyThi\bin\Debug\QuanLyThi.pdb
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.AssemblyReference.cache
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.Login.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.Properties.Resources.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherForm.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.GenerateResource.cache
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.CoreCompileInputs.cache
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.exe
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.pdb
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherInfo.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherExamManage.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTracNghiem.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTuLuan.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.EditExam.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentForm.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentInfo.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.ListExam.resources
+D:\BaiTapLonWinform\QuanLyThi\obj\Debug\QuanLyThi.TakingExam.resources
+D:\github\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe.config
+D:\github\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe
+D:\github\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.pdb
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.AssemblyReference.cache
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTracNghiem.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTuLuan.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.EditExam.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.ListExam.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Login.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Properties.Resources.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentForm.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentInfo.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TakingExam.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherExamManage.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherForm.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherInfo.resources
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.GenerateResource.cache
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.CoreCompileInputs.cache
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.exe
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.pdb
+D:\github\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Student.Result.resources
+D:\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe.config
+D:\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.exe
+D:\BaiTapWinform\QuanLyThi\bin\Debug\QuanLyThi.pdb
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.AssemblyReference.cache
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Student.Result.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTracNghiem.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.CauHoiTuLuan.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.EditExam.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.ListExam.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Login.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.Properties.Resources.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentForm.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.StudentInfo.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TakingExam.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherExamManage.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherForm.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.TeacherInfo.resources
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.GenerateResource.cache
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.csproj.CoreCompileInputs.cache
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.exe
+D:\BaiTapWinform\QuanLyThi\obj\Debug\QuanLyThi.pdb
